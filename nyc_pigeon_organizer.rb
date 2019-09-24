@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
         if pigeons[name][stats] == nil
           pigeons[name][stats] = []
         end
-          binding.pry
+          #binding.pry
         pigeons[name][stats].push(value2.to_s)
       end
     end
